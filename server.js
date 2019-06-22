@@ -51,7 +51,7 @@ io.on("connection", socket => {
         io.sockets.emit("changed", stdout);
       });
     } else {
-      console.log("Error");
+      console.log("Error Occured");
     }
   });
 });
