@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:5000" || process.env.PORT);
+var socket = io.connect();
 // Query DOM
 var message = document.getElementById("message"),
   btn = document.getElementById("send"),
